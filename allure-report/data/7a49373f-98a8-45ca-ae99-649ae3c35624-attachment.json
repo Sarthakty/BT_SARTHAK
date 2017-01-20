@@ -1,0 +1,19 @@
+{
+    "desiredCapabilities": {
+        "javascriptEnabled": true,
+        "locationContextEnabled": true,
+        "handlesAlerts": true,
+        "rotatable": true,
+        "maxInstances": 1,
+        "browserName": "chrome",
+        "loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+        },
+        "requestOrigins": {
+            "url": "http://webdriver.io",
+            "version": "4.6.1",
+            "name": "webdriverio"
+        }
+    }
+}

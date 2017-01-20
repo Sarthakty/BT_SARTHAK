@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//input[@id='j_id0:navbar:txtPassword']"
+}

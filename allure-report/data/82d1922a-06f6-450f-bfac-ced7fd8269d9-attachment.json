@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//span[@ng-show='cat.liveCount>= 0 || cat.liveCountGlobal >= 0']"
+}

@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//table[@class='table table-hover']/tbody/tr[3]/td[4]"
+}

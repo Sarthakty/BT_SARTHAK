@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//a[@class='btn btn-default dropdown-toggle channel_filter_drop']"
+}

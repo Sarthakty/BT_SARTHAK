@@ -1,0 +1,112 @@
+{
+  "time" : {
+    "start" : 1484822706480,
+    "stop" : 1484823278865,
+    "duration" : 572385
+  },
+  "testSuites" : [ {
+    "uid" : "1ebae4c600f0a1d1",
+    "name" : "INVENTORY MODULE",
+    "title" : "INVENTORY MODULE",
+    "time" : {
+      "start" : 1484822815288,
+      "stop" : 1484823278865,
+      "duration" : 463577
+    },
+    "statistic" : {
+      "total" : 5,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 3
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "324d3105c82ff7e1",
+      "name" : "Check number of listings on a channel(Snapdeal) and  in BT under Listing Watch.",
+      "title" : "Check number of listings on a channel(Snapdeal) and  in BT under Listing Watch.",
+      "time" : {
+        "start" : 1484822815288,
+        "stop" : 1484822931929,
+        "duration" : 116641
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "31a66508018f746e",
+      "name" : "Check Channel listings on the Inventory List Page and the Product Details Page.",
+      "title" : "Check Channel listings on the Inventory List Page and the Product Details Page.",
+      "time" : {
+        "start" : 1484822931930,
+        "stop" : 1484823033167,
+        "duration" : 101237
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "96a651851c26938b",
+      "name" : "Check dedicated stock and  qty on channel of the product for Flipkart seller Channnel and Check the condition",
+      "title" : "Check dedicated stock and  qty on channel of the product for Flipkart seller Channnel and Check the condition",
+      "time" : {
+        "start" : 1484823033168,
+        "stop" : 1484823051117,
+        "duration" : 17949
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "3ce60604a3e8ed35",
+      "name" : "Pick 1 zero quantity product  and check its stock on Paytm seller and in BT. ",
+      "title" : "Pick 1 zero quantity product  and check its stock on Paytm seller and in BT. ",
+      "time" : {
+        "start" : 1484823051118,
+        "stop" : 1484823162992,
+        "duration" : 111874
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "6459f08685e27e7",
+      "name" : "Pick 1 Non-zero quantity product  and check its stock on Paytm seller and in BT. ",
+      "title" : "Pick 1 Non-zero quantity product  and check its stock on Paytm seller and in BT. ",
+      "time" : {
+        "start" : 1484823162993,
+        "stop" : 1484823278865,
+        "duration" : 115872
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    } ]
+  }, {
+    "uid" : "1e1408afaa3723d7",
+    "name" : "ACTIVITY MODULE",
+    "title" : "ACTIVITY MODULE",
+    "time" : {
+      "start" : 1484822706480,
+      "stop" : 1484822810830,
+      "duration" : 104350
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "4dd644959cf85cab",
+      "name" : "dreambolic1@gmail.com",
+      "title" : "dreambolic1@gmail.com",
+      "time" : {
+        "start" : 1484822706480,
+        "stop" : 1484822810830,
+        "duration" : 104350
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//a[contains(text(),'Dreambolic Always-Look-On-The-Bright-Side-Prints Wall Clock')]"
+}

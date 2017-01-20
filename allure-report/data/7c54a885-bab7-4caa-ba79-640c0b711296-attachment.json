@@ -1,0 +1,11 @@
+{
+    "state": "success",
+    "sessionId": "ace8fc50-70f7-4226-a33b-e5ef76bdba96",
+    "hCode": 1385960987,
+    "value": [
+        "CDwindow-93cd4606-9d46-454e-ae79-bf9eb98d5f29",
+        "CDwindow-5d0558eb-99e1-4818-923e-58b412a24d83"
+    ],
+    "class": "org.openqa.selenium.remote.Response",
+    "status": 0
+}

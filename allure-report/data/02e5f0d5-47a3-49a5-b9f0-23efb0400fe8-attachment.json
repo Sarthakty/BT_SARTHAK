@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//input[@class='input-xsmall search' and @data-type='custom_code']"
+}

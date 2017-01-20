@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//span[text()='Total in stock:']/../span[6]"
+}

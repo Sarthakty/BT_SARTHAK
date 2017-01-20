@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//span[text()='Total Listing']/../../td[2]//a"
+}

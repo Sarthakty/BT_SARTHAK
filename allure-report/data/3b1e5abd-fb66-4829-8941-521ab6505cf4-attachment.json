@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//table[@class='table table-condensed']/tbody/tr[2]/td[1]"
+}

@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//td[contains(text(),'Rediff Shopping')]"
+}

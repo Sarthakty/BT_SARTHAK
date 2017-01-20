@@ -1,0 +1,78 @@
+{
+  "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
+  "data" : [ {
+    "statistic" : {
+      "total" : 6,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 3
+    },
+    "time" : {
+      "start" : 1484822706480,
+      "stop" : 1484823278865,
+      "duration" : 572385
+    },
+    "name" : "total",
+    "type" : "TOTAL"
+  }, {
+    "name" : "defects",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 1,
+      "message" : "expected 'Fail' to equal 'Pass'",
+      "status" : "FAILED"
+    }, {
+      "count" : 2,
+      "message" : "An element could not be located on the page using the given search parameters.",
+      "status" : "BROKEN"
+    }, {
+      "count" : 1,
+      "message" : "An element could not be located on the page using the given search parameters (\"//table[@class='table table-condensed']/tbody/tr[3]/td[1]\").",
+      "status" : "BROKEN"
+    } ]
+  }, {
+    "name" : "xunit",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "INVENTORY MODULE",
+      "statistic" : {
+        "total" : 5,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 3
+      }
+    }, {
+      "title" : "ACTIVITY MODULE",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "behaviors",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Without feature",
+      "statistic" : {
+        "total" : 6,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 3
+      }
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ ]
+  } ]
+}

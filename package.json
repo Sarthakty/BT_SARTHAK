@@ -1,0 +1,20 @@
+{
+  "name": "browntape",
+  "version": "1.0.0",
+  "description": "Demo for BrownTape Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "help": "./node_modules/.bin/wdio --help"
+  },
+  "keywords": [
+    "Webdriverio",
+    "nodejs",
+    "chai"
+  ],
+  "author": "Vinay.N",
+  "license": "ISC",
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.5.8"
+  }
+}

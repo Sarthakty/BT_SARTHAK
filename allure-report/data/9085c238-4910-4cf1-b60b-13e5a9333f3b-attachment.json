@@ -1,0 +1,8 @@
+{
+    "state": "success",
+    "sessionId": "fde36539-5aae-4628-b4e7-cf7887d4d6a7",
+    "hCode": 939183699,
+    "value": "changeStockListing: Sku code DBPJ119596 status: 13798 sku Code: DBPJ119596 \"invalid_request. Too Many Requests!!!\"",
+    "class": "org.openqa.selenium.remote.Response",
+    "status": 0
+}

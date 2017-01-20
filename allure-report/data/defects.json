@@ -1,0 +1,76 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "f046e312baa6d615",
+      "failure" : {
+        "message" : "expected 'Fail' to equal 'Pass'",
+        "stackTrace" : "AssertionError: expected 'Fail' to equal 'Pass'\n    at Context.<anonymous> (C:\\Users\\Administrator\\Desktop\\BrownTape\\test\\specs\\Inventory.js:131:31)\n    at C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\wdio-sync\\build\\index.js:779:26\n    at Context.executeSync (C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\wdio-sync\\build\\index.js:777:12)\n    at C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\wdio-sync\\build\\index.js:975:38"
+      },
+      "testCases" : [ {
+        "uid" : "96a651851c26938b",
+        "name" : "Check dedicated stock and  qty on channel of the product for Flipkart seller Channnel and Check the condition",
+        "title" : "Check dedicated stock and  qty on channel of the product for Flipkart seller Channnel and Check the condition",
+        "time" : {
+          "start" : 1484823033168,
+          "stop" : 1484823051117,
+          "duration" : 17949
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ {
+      "uid" : "51172be179efaba2",
+      "failure" : {
+        "message" : "An element could not be located on the page using the given search parameters (\"//table[@class='table table-condensed']/tbody/tr[3]/td[1]\").",
+        "stackTrace" : "Error: An element could not be located on the page using the given search parameters (\"//table[@class='table table-condensed']/tbody/tr[3]/td[1]\").\n    at Object.getText (C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\wdio-sync\\build\\index.js:460:27)\n    at Listing.channellist (C:\\Users\\Administrator\\Desktop\\BrownTape\\pages\\ChannelListingPO.js:70:89)\n    at Context.<anonymous> (C:\\Users\\Administrator\\Desktop\\BrownTape\\test\\specs\\Inventory.js:97:30)\n    at C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\wdio-sync\\build\\index.js:779:26\n    at Context.executeSync (C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\wdio-sync\\build\\index.js:777:12)\n    at C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\wdio-sync\\build\\index.js:975:38\n    at elements() - C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\webdriverio\\build\\lib\\commands\\getText.js:18:17\n    at getText() -     at C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\wdio-sync\\build\\at Object.wait (C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\fibers\\future.js:449:15)"
+      },
+      "testCases" : [ {
+        "uid" : "31a66508018f746e",
+        "name" : "Check Channel listings on the Inventory List Page and the Product Details Page.",
+        "title" : "Check Channel listings on the Inventory List Page and the Product Details Page.",
+        "time" : {
+          "start" : 1484822931930,
+          "stop" : 1484823033167,
+          "duration" : 101237
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "41bf59914fa4f443",
+      "failure" : {
+        "message" : "An element could not be located on the page using the given search parameters.",
+        "stackTrace" : "Error: An element could not be located on the page using the given search parameters.\n    at Object.click (C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\wdio-sync\\build\\index.js:460:27)\n    at Zero.stockPaytm (C:\\Users\\Administrator\\Desktop\\BrownTape\\pages\\ZeroProductPO.js:147:28)\n    at Context.<anonymous> (C:\\Users\\Administrator\\Desktop\\BrownTape\\test\\specs\\Inventory.js:164:42)\n    at C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\wdio-sync\\build\\index.js:779:26\n    at Context.executeSync (C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\wdio-sync\\build\\index.js:777:12)\n    at C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\wdio-sync\\build\\index.js:975:38\n    at element() - C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:12:17\n    at click() -     at C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\wdio-sync\\build\\at Object.wait (C:\\Users\\Administrator\\Desktop\\BrownTape\\node_modules\\fibers\\future.js:449:15)"
+      },
+      "testCases" : [ {
+        "uid" : "3ce60604a3e8ed35",
+        "name" : "Pick 1 zero quantity product  and check its stock on Paytm seller and in BT. ",
+        "title" : "Pick 1 zero quantity product  and check its stock on Paytm seller and in BT. ",
+        "time" : {
+          "start" : 1484823051118,
+          "stop" : 1484823162992,
+          "duration" : 111874
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "6459f08685e27e7",
+        "name" : "Pick 1 Non-zero quantity product  and check its stock on Paytm seller and in BT. ",
+        "title" : "Pick 1 Non-zero quantity product  and check its stock on Paytm seller and in BT. ",
+        "time" : {
+          "start" : 1484823162993,
+          "stop" : 1484823278865,
+          "duration" : 115872
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}
